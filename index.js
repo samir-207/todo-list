@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-// let bodyParts = ["ear","nose","eyes"];
+// let bodyParts = ["ear","eyes"];
 // bodyParts.push("head");
 // bodyParts.push("hair");
 // bodyParts.pop();
@@ -28,7 +28,7 @@ while (i) {
         }
     ]);
     console.log(userList.addMore);
-    //   todo.push(userList.list)
+    todo.push(userList.list);
     i = userList.addMore;
-    //   console.log(todo);
+    console.log(todo);
 }
